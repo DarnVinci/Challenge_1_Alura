@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Challenge-1</title>
+        <link rel="stylesheet" href="style.css">
+        <script type = "text/javascript" src="script.js"></script>
+    </head>
+    <body>
+
+        <div class="contenedor">
+            
+            <img class="logo" src="img/logo.png" alt="logo alura">        
+            
+            <div class="panel-izquierdo">
+                <textarea name="textArea1" id="textArea1" cols="30" rows="10" placeholder="Ingrese el texto aquí"></textarea>
+            </div>
+
+            <div class="panel-derecho">
+                <img src="img/Munheco.png" id="munheco">
+                <h1 id="texto-panel-derecho">Ningún mensaje fue encontrado</h1>
+                <textarea name="textArea2" id="textArea2" cols="30" rows="8">Ingrese el texto que desees encriptar o desencriptar.</textarea>
+                <button  type="button" id="copiar" onclick="copiar()">Copiar</button>
+            </div>
+
+            <div class="botonera-izquierda">
+                <img src="img/vector.png" id="vector">
+                <p class="texto-inferior">Solo minúsculas y sin acentos</p>
+                <button type="button" id="encriptar" onclick="encriptar()">Encriptar</button>
+                <button type="button" id="desencriptar" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </div>
+    </body>
+</html>
